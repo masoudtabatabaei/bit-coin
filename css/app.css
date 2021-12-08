@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.outer_triangle {
+    background-color: #fff;
+    border-radius: 0 100px 100px 0;
+    position: relative;
+}
+
+.triangle_top {
+    width: 160px;
+    height: 90px;
+}
+
+.triangle_bottom {
+    width: 180px;
+    height: 110px;
+}
+
+.inner_triangle {
+    background-color: #f7931a;
+    border-radius: 0 100px 100px 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.inner_triangle_top {
+    height: 50px;
+    width: 90px;
+}
+
+.inner_triangle_bottom {
+    height: 70px;
+    width: 110px;
+}
