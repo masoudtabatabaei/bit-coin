@@ -68,12 +68,12 @@ body {
 }
 
 .column {
-  width: 60px;
+  width: 70px;
   height: 195px;
   background-color: #ffffff;
   position: absolute;
   top: 0;
-  left: -10px;
+  left: -28px;
 }
 
 .inner_column {
@@ -85,4 +85,35 @@ body {
   transform: translateY(-50%);
   background-color: #f7931a;
   border-radius: 0 12px 12px 0;
+}
+
+.ramus {
+  position: relative;
+  top: -200px;
+}
+
+.ramus:after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 47px;
+  top: -33px;
+  background-color: transparent;
+  z-index: 1;
+  left: 25px;
+  border-left: 25px solid #fff;
+  border-right: 25px solid #fff;
+}
+
+.ramus:before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 47px;
+  bottom: -225px;
+  background-color: transparent;
+  z-index: 1;
+  left: 25px;
+  border-left: 25px solid #fff;
+  border-right: 25px solid #fff;
 }
